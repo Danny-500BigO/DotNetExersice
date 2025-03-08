@@ -12,3 +12,4 @@
 /Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/HelloWorld.pdb
 /Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/HelloWorld.genruntimeconfig.cache
 /Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/ref/HelloWorld.dll
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/HelloWorld.sourcelink.json

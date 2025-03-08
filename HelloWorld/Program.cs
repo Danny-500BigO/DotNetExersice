@@ -105,6 +105,52 @@ Console.WriteLine(subString);
 
 
 
+//Booleans
+
+bool isCSharp = true;
+bool isCodTate = false;
+
+//boolean expression(this is use to get out put true or false by using the comparing the values)
+
+//< or >
+int numberOne = 10;
+int numberTwo = 20;
+
+bool maximumValue  = numberOne < numberTwo ;
+
+Console.WriteLine(maximumValue);
+
+//==
+
+int firstNumber =  10;
+int sencondNumber = 30;
+
+bool checkTheNumbers = firstNumber == sencondNumber;
+Console.WriteLine(checkTheNumbers);
+
+//ACTIVITY
+
+int yourAge;
+int votingAge = 18;
+
+
+Console.WriteLine("Please Enter Your Name");
+
+string userName = Console.ReadLine();
+
+Console.WriteLine("Please Enter Your Age");
+
+yourAge = Convert.ToInt32(Console.ReadLine());
+
+if(yourAge >= votingAge)
+{
+
+     Console.WriteLine($"{userName} You are eligible to vote for next election");
+}
+else
+{
+     Console.WriteLine($"{userName} You are Not eligible to vote for the election");
+}
 
      }
 }

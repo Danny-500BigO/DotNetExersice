@@ -1,0 +1,14 @@
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/bin/Debug/net8.0/HelloWorld
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/bin/Debug/net8.0/HelloWorld.deps.json
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/bin/Debug/net8.0/HelloWorld.runtimeconfig.json
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/bin/Debug/net8.0/HelloWorld.dll
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/bin/Debug/net8.0/HelloWorld.pdb
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfo.cs
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/HelloWorld.dll
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/refint/HelloWorld.dll
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/HelloWorld.pdb
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/HelloWorld.genruntimeconfig.cache
+/Users/dhanushkabandara/Code/C#/Training/HelloWorld/obj/Debug/net8.0/ref/HelloWorld.dll

@@ -176,78 +176,163 @@ namespace HelloWorld
                }
 
 
-     //elseif condition
+               //elseif condition
 
-     int ageOfMan = 23;
-     int ageOfWoman = 18;
+               int ageOfMan = 23;
+               int ageOfWoman = 18;
 
-     if(ageOfMan == ageOfWoman)
-     {
-          Console.WriteLine("we will give you same postion");
-     }
-     else if(ageOfMan > ageOfWoman)
-     {
-          
-          Console.WriteLine("Man is on Highest position of then world");
+               if (ageOfMan == ageOfWoman)
+               {
+                    Console.WriteLine("we will give you same postion");
+               }
+               else if (ageOfMan > ageOfWoman)
+               {
 
-     }
-     else
-     {
-          Console.WriteLine("neither both in any postion");
-     }
+                    Console.WriteLine("Man is on Highest position of then world");
 
-
-//Switch Statement
-//switch Condtion work as a this condtion will true only one peration among different
-
-string nameOfDay = "Monday";
-
-switch(nameOfDay)
-{
-
-     case "tuesday":
-        
-     Console.WriteLine("its's Tuesday");
-          break;
-
-     case "wednesday":
-
-     Console.WriteLine("it's Wednesday");
-          break;
-     
-     case "monday":
-
-     Console.WriteLine("it's Monday");
-          break;
-
-     case "friday":
-
-     Console.WriteLine("it's Friday");
-          break;
-
-     case "thursday":
-
-     Console.WriteLine("its's thursday");
-          break;
-
-     default:
-
-     Console.WriteLine("we couldn't find your day");
-          break;
-}
+               }
+               else
+               {
+                    Console.WriteLine("neither both in any postion");
+               }
 
 
-//loop loop is a block of code which exucute until the expexcted value reached
+               //Switch Statement
+               //switch Condtion work as a this condtion will true only one peration among different
 
-//while loop(this loop is runing until the cosnition is true)
+               string nameOfDay = "Monday";
 
-int numberOfPeople = 0;
+               switch (nameOfDay)
+               {
 
-while (numberOfPeople <= 8)
-{
-     Console.WriteLine("number of people count is: " + numberOfPeople);
-     numberOfPeople++;
-}
+                    case "tuesday":
+
+                         Console.WriteLine("its's Tuesday");
+                         break;
+
+                    case "wednesday":
+
+                         Console.WriteLine("it's Wednesday");
+                         break;
+
+                    case "monday":
+
+                         Console.WriteLine("it's Monday");
+                         break;
+
+                    case "friday":
+
+                         Console.WriteLine("it's Friday");
+                         break;
+
+                    case "thursday":
+
+                         Console.WriteLine("its's thursday");
+                         break;
+
+                    default:
+
+                         Console.WriteLine("we couldn't find your day");
+                         break;
+               }
+
+
+               //loop loop is a block of code which exucute until the expexcted value reached
+
+               //while loop(this loop is runing until the cosnition is true)
+
+               int numberOfPeople = 0;
+
+               while (numberOfPeople <= 8)
+               {
+                    Console.WriteLine("number of people count is: " + numberOfPeople);
+                    numberOfPeople++;
+               }
+
+
+               //do while loop(in this loop runs the do code block once till while condtion true)
+
+               int myAge = 30;
+
+               do
+               {
+                    myAge++;
+
+                    Console.WriteLine("your age is : " + myAge);
+
+               }
+
+               while (myAge <= 32);
+
+
+
+               //for loop(when we know the limit of the condition we can use the for loop)
+
+               //for(initialization ; condition ;  increment){}
+
+               for (int i = 0; i < 5; i++)
+               {
+
+                    Console.WriteLine("The out put of the i value is : " + i);
+
+               }
+
+               //Nested Loop(nested loop means loop inside the loop the first loop run one time each and inside loop run until the codition false)
+
+               for (int i = 0; i < 2; i++)
+               {
+
+                    Console.WriteLine("second loop ");
+
+                    for (int j = 0; j < 3; j++)
+                    {
+                         Console.WriteLine("*");
+                    }
+
+               }
+
+
+               //foreach(this loop use for loop through the elements of an array(dataset))
+
+               //foreach(datatype variablename in array name){}
+
+               int[] monthsForTheYear = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+               foreach (int i in monthsForTheYear)
+               {
+                    Console.WriteLine("for each loop out put is " + i);
+               }
+
+
+               //break(use the break for jump out of the loop)
+
+               for (int i = 0; i <= 5; i++)
+               {
+
+                    if (i == 4)
+                    {
+                         break;
+                    }
+
+                    Console.WriteLine("jumped it out of break" + i);
+               }
+
+
+               //continue(continue statment just break/skip one condition in the loop and continue from other in the loop)
+
+               for (int c = 0; c <= 10; c++)
+               {
+
+                    if (c == 5)
+                    {
+                         continue;
+                    }
+
+                    Console.WriteLine("Skip wihtout 5 and start from 6 " + c);
+
+               }
+
+               
 
 
           }

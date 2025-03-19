@@ -332,7 +332,59 @@ namespace HelloWorld
 
                }
 
-               
+               //Array(array is a set of data(multiple values in single variable) which store in one variable)
+
+               // let see how to decalre and array in c# 
+               // first declare the array type with square bracket  string[]
+               // next array name 
+               // string[] typeOfCrs = {"honda", "Mitsuibishi" , "Toyota" , "BMW" , "Volvo" }
+
+               string[] typeofCars = {"honda", "Mitsuibishi" , "Toyota" , "BMW" , "Volvo"};
+
+               Console.WriteLine(typeofCars[1]);
+
+
+               //loop through an array
+               //in this section we can loop throufh an array using length specify howmany times array should loop
+               //for loop
+
+               int[] oddNumbers = {1,3,5,7,9,10,11};
+
+               for(int i = 0 ; i < oddNumbers.Length ; i++)
+               {
+
+                    Console.WriteLine("Odd numbers in loop are: " + oddNumbers[i]);
+
+               }
+
+               //foreach loop
+               //no need to write iteration for this loop and in this loop 'i' consider as index of an array and loop the array elemnt acording to index
+
+               foreach(int i in oddNumbers)
+               {
+                    Console.WriteLine("This is inside the for loop " + i);
+               }
+
+
+              //sorting Arrays
+
+              //sorting arrays means sorts array alphebitically or accending order 
+
+              int[] decendingNumbers = {2,3,1,4,5,9,8,7};
+
+              Array.Sort(decendingNumbers);
+
+              foreach(int i in decendingNumbers)
+              {
+
+               Console.WriteLine("This is the result of array sort" + i);
+
+              }
+
+              //system.linq.namspace(min,max,sum)
+
+
+
 
 
           }

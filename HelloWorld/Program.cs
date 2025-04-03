@@ -383,8 +383,70 @@ namespace HelloWorld
 
               //system.linq.namspace(min,max,sum)
 
+          //declare an array
+          //initialize it later then we have to use new keyword for that
+          int[] newOddNumbers ;
+
+          newOddNumbers  = new  int[] {1,3,5,7};
+
+          string[] peoples;
+
+          peoples = new string[] {"Danny","panny", "Canny"};
 
 
+          int[] firstNineNumbers;
+
+          firstNineNumbers = new int[] {1,2,3,4,5};
+
+          firstNineNumbers = new int[] {1,2,3,4,5,6,7,8,9};
+
+
+          int[] luckyNumber;
+
+          luckyNumber = new int[] {9,0,5};
+
+
+          //MultiDimentional Array
+          //multi dimentional arrays mean we can store data as tabular form,otherwise store data like in the table. in rows and columns.
+          //we can have two dimenstion array and three dimentional array. but mostly we use two dimentional arrays.
+
+          //Two Dimentional Array(2D Arrays)(we use one comma in squre bracket for two dimentioanl arrays)
+          //each array is hase a index 
+
+          int[,] numberOfAges = {{1,2,3,4},{1,2,3,4}};
+                                   //0      //1
+
+          Console.WriteLine(numberOfAges[0,2]);
+          Console.WriteLine(numberOfAges[1,3]);
+
+          //Three Dimensional Array(we use ,, comma inside a squre bracket in three dimensional array.however mostly we use two dimensional array)
+
+          //changing elment of 2D Array
+          int[,] gradesofSchool = {{1,2,3,4,5}, {6,7,8,9,0}};
+          gradesofSchool[0,2] = 4;
+          Console.WriteLine(gradesofSchool[0,2]);
+
+          //loop through the 2D Arrays
+          string[,] nameOfDogs = {{"RONY","HONY","ROY"},{"SOY", "KAI","JOJO"}};
+
+          foreach(string i in nameOfDogs)
+          {
+
+               Console.WriteLine(i);
+          }
+
+          //for loop
+
+          int[,] positiveNumbers = {{5,4,3},{2,1,0}};
+
+          for(int i = 0 ; i < positiveNumbers.GetLength(0) ; i++){
+
+               for(int j = 0; j < positiveNumbers.GetLength(1) ; j++)
+               {
+
+                    Console.WriteLine(positiveNumbers[i,j]);
+               }
+          }
 
 
           }
